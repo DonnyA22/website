@@ -24,19 +24,24 @@ header h1{
 }
 
 header img{
-	border-radius: 170px;
-    width: 300px;
+	border-style: square;
+    width: 150px;
     border: 20px solid maroon;
+    padding: 10px;
 }
 
 main{
+	text-align: center;
 	max-width: 800px;
 	margin: 0 auto;
 	padding: 20px;
 }
 
 main img{
-	max-width: 100%;
+	border-style: square;
+    width: 75px;
+    border: 13px solid maroon;
+    padding: 10px;
 }
 
 h2{
@@ -48,6 +53,7 @@ h2{
 a{
 	color: maroon;
 }
+
 a:hover{
 	color: white;
 	background-color: purple;
@@ -67,6 +73,7 @@ footer p{
 footer a{
 	color: white;
 }
+
 footer a:hover{
 	opacity: .5;
 	background-color: transparent;
@@ -76,4 +83,10 @@ p.caption{
 	color: grey;
 	font-style: italic;
 	margin-top: 0;
+	font-size: 9px;
+}
+
+ul{
+	list-style-position: inside; 
+	padding-left: 0;
 }
